@@ -49,15 +49,15 @@ brew install ssh-copy-id
 brew install tree
 
 # Casks
-brew install --cask slack
-brew install --cask zoom
-brew install --cask google-chrome
 brew install --cask atom
-brew install --cask timing
+brew install --cask google-chrome
 brew install --cask iterm2
-brew install --cask spotify
-brew install --cask zotero
 brew install --cask mactex-no-gui
+brew install --cask slack
+brew install --cask spotify
+brew install --cask timing
+brew install --cask zoom
+brew install --cask zotero
 
 # Remove outdated versions from the cellar.
 brew cleanup
