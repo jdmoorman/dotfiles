@@ -11,8 +11,8 @@ You can clone the repository wherever you want. The bootstrapper script will pul
 ```bash
 $ git clone https://github.com/jdmoorman/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
-$ source brew.sh
-$ source bootstrap.sh
+$ ./install.sh
+$ ./bootstrap.sh
 ```
 
 ### Add custom commands without creating a new fork
