@@ -13,6 +13,7 @@ function doIt() {
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
 	source ~/.zshrc;
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
