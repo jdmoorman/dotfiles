@@ -1,0 +1,9 @@
+apm install file-icons
+apm install file-types
+apm install language-latex
+apm install latex-autocomplete
+apm install latextools
+apm install linter
+apm install linter-ui-default
+apm install plist-converter
+apm install teletype
