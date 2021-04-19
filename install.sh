@@ -50,12 +50,6 @@ brew install screen
 brew install php
 brew install gmp
 
-# Install font tools.
-brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
-
 # Install other useful binaries.
 brew install git
 brew install git-lfs
@@ -99,3 +93,6 @@ curl https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20I
 open MesloLGS%20NF%20Italic.ttf
 curl https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf -OL
 open MesloLGS%20NF%20Bold%20Italic.ttf
+
+# SSH key for github
+ssh-keygen -t ed25519 -C "jacob@moorman.me" -f ~/.ssh/sshkey -q -N "github"
