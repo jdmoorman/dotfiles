@@ -79,3 +79,11 @@ eval "$(/usr/libexec/path_helper)"
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+
+# Setup oh-my-zsh and theme
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+# p10k theme
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
